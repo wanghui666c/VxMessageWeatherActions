@@ -11,15 +11,15 @@ public class WechatConfig {
      * 你的微信的APPID
      * appId
      */
-    public static final String VxAppId = "your VxAppId";
+    public static final String VxAppId = "wx0602de92bb96e444";
 
     /**
      * 你的微信的密钥
      * appSecret
      */
-    public static final String VxAppSecret = "your VxAppSecret";
+    public static final String VxAppSecret = "66eea5a63c09c56b201b8ca96730888c";
 
-    public static final List<User> userList = new ArrayList<>();
+    public static final List<User> userList = new ArrayList<>(oIYf-6l_fDrDibzUJWdLMZEtkHvE,oIYf-6tGkU4G-S0P4TdnRAdydHHI);
 
     /**
      * 配置用户信息
@@ -43,10 +43,10 @@ public class WechatConfig {
                 "pt", //咋称呼这个人
                 "江苏省南京市玄武区", //这个人的详细地址
                 "南京", //这个人在的城市
-                new BirthDay(1999,2,15,true,false,"pt生日快乐！！"),
-                new BirthDay(1999,8,11,false,false,"生日快乐哦~~"),
-                new BirthDay(2020,7,8,true,true),
-                new BirthDay(2020,7,8,true,false,"周年快乐！！！")
+                new BirthDay(2000,09,06,true,false,"pt生日快乐！！"),
+                new BirthDay(2003,11,27,false,false,"生日快乐哦~~"),
+                new BirthDay(2023,8,15,true,true),
+                new BirthDay(2023,8,15,true,false,"周年快乐！！！")
         ));
 
         userList.add(getUser(
@@ -55,10 +55,10 @@ public class WechatConfig {
                 "这个人的称呼",
                 "江苏省南京市玄武区",
                 "南京",
-                new BirthDay(1999,8,11,false,false,"生日快乐哦~~"),
-                new BirthDay(1999,2,15,true,false,"pt生日快乐！！"),
-                new BirthDay(2020,7,8,true,true),
-                new BirthDay(2020,7,8,true,false,"周年快乐！！！")
+                new BirthDay(2003,11,27,false,false,"生日快乐哦~~"),
+                new BirthDay(2000,2,15,true,false,"pt生日快乐！！"),
+                new BirthDay(2023,8,15,true,true),
+                new BirthDay(2023,8,15,true,false,"周年快乐！！！")
         ));
 
 
@@ -66,12 +66,12 @@ public class WechatConfig {
 
     private static User getUser(String vx, String templateId, String username, String address, String city, BirthDay... birthDays){
         User user=new User();
-        user.setVx(vx);
-        user.setUserName(username);
-        user.setBirthDays(birthDays);
-        user.setAddress(address);
-        user.setCity(city);
-        user.setTemplateId(templateId);
+        user.setVx(wyyyydshh);
+        user.setUserName("你的宝宝");
+        user.setBirthDays(2003,11,27);
+        user.setAddress("四川省绵阳市");
+        user.setCity("四川省");
+        user.setTemplateId("62hldzXceppRKXOOvG9ppHzxfSFh_nx-tf8jJ7km3jc");
         return user;
     }
     private static User getUser(String vx, String templateId, String username, BirthDay... birthDays){
